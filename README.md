@@ -8,11 +8,11 @@
 
 
 ### Notes:
-Keep in mind texture sizes. Mandala textures are currently 1024x1024, most others are 2048x2048. Would increasing them give better looking renders, or is the texture size already excessive and killing the fps. Does it even matter? Also the Mandalas COMP has parameters which can be adjusted.
+Most PBR/substance textures are 2048x2048 resolution. Would scaling this down increase the fps? And at what cost to the render quality?
 
 Should the "Environment" GEO be added to the shadow casters in the Light COMP?
 
-How can the complex fluid go completely flat? Seems like there's always a bit on the edges. Turning down velocity diffusion should do this, maybe trigger it when there's been no activity for a while (similar to how the sounds get triggered).
+Complex Fluid never goes completely flat. Maybe there should be an idle timer, so after a while the velocity diffusion goes down to zero, flattens the fluid and then goes back up to the default value.
 
 Currently the movement only comes from the red channel (movement in the x-axis), but there's also green channel information (y-axis). Should that be included?
 

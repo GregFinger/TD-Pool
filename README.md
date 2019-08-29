@@ -16,4 +16,6 @@ Complex Fluid never goes completely flat. Maybe there should be an idle timer, s
 
 Currently the movement only comes from the red channel (movement in the x-axis), but there's also green channel information (y-axis). Should that be included?
 
+Audio right now is various .wav files of splashes. Better would be physically based model fluid simulation sounds.
+
 [![gif](Images/pool.gif)](https://vimeo.com/292219596)

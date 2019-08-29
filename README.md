@@ -4,7 +4,7 @@
 
 [![detail](Images/detail.png)](https://vimeo.com/292219596)
 
-[![params](Images/Params.png)](https://vimeo.com/292219596)
+[![params](Images/parameters.png)](https://vimeo.com/292219596)
 
 
 ### Notes:
